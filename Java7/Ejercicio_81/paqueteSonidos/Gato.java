@@ -1,0 +1,13 @@
+package paqueteSonidos;
+
+public class Gato extends Animal implements Comunicable{
+	
+	public Gato(String nombre) {
+		super(nombre);
+	}
+	
+	@Override
+	public String hacerSonido() {
+		return "Miau";
+	}
+}
